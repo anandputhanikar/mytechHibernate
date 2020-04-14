@@ -1,4 +1,4 @@
-package com.mytech.hibernate.hibernateDemo;
+package com.mytech.hibernate.dto;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;

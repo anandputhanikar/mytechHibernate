@@ -1,4 +1,4 @@
-package com.mytech.hibernate.hibernateDemo;
+package com.mytech.hibernate;
 
 
 import java.io.File;

@@ -1,9 +1,12 @@
-package com.mytech.hibernate.hibernateDemo;
+package com.mytech.hibernate;
 
 import java.util.Date;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
+
+import com.mytech.hibernate.dto.Address;
+import com.mytech.hibernate.dto.EmployeeEntity;
 
 public class TestHibernate {
 
@@ -16,20 +19,20 @@ public class TestHibernate {
 
 			// Add new Employee object
 			EmployeeEntity emp = new EmployeeEntity();
-			emp.setEmail("anand@gmail.com");
-			emp.setFirstName("anand");
-			emp.setLastName("puthanikar");
+			emp.setEmail("Raj@gmail.com");
+			emp.setFirstName("Raj");
+			emp.setLastName("J");
 			emp.setJoinedDate(new Date());
 
 			EmployeeEntity emp2 = new EmployeeEntity();
-			emp2.setEmail("kavita@gmail.com");
-			emp2.setFirstName("kavita");
-			emp2.setLastName("puthanikar");
+			emp2.setEmail("Janavi@gmail.com");
+			emp2.setFirstName("Janavi");
+			emp2.setLastName("K");
 			emp2.setJoinedDate(new Date());
 			
 			Address address = new Address();
 			address.setStreet("40th cross");
-			address.setCity("Hubli");
+			address.setCity("Hubballi");
 			address.setState("Karnataka");
 			address.setPincode("560040");
 

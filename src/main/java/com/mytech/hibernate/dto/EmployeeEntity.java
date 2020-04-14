@@ -1,4 +1,4 @@
-package com.mytech.hibernate.hibernateDemo;
+package com.mytech.hibernate.dto;
 
 import java.util.ArrayList;
 import java.util.Collection;
