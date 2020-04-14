@@ -54,9 +54,6 @@ public class TestHibernate {
 			System.out.println("Employe name recieved is :" + emp.getListOfAddresses().size());
 			HibernateUtil.shutdown();
 			session.close();
-			
-
-			
 
 		} catch (HibernateException e) {
 			System.out.println("HibernateException: " + e);
